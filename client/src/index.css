@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* React Modal Styles */
+.customOverlay {
+  background: rgba(28, 29, 29, 0.7);
+}
+
+.customModal {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+/* React Pagination styles */
+.pagination {
+  list-style: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 27px 0 27px 0;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #1e50ff;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.page-item {
+  list-style: none;
+  padding: 2px 12px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+}
